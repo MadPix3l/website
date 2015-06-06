@@ -21,22 +21,49 @@
       $(document).foundation();
   </script>
 
-<title>tylerholland</title>
+<title>About Me</title>
 </head>
 <body>
   <header><a href="index.html"><span class=bigtext>Tyler</span> <span class=text>Holland</span></a></header>
   <div id="container">
     <div id="menu">
       <ul class="list">
-        <li><a href="about.html">About Me</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact Me</a></li>
       </ul>
     </div>
     <div id="content">
       <div id="aboutme">
-        <h2>About Me</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+        <div class="row">
+          <div class="large-7 columns">
+            <ul class="profilelist">
+              <img class="resimage"src="images/profile.png"/>
+              <li>Email</li>
+              <li>location</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+            </ul>
+          </div>
+          <div class="large-5 columns">
+            <ul class="tabs" data-tab>
+              <li class="tab-title active"><a href="#whoami" >Who am I?</a></li>
+              <li class="tab-title"><a href="#interests" >Interests</a></li>
+              <li class="tab-title"><a href="#work" >Work</a></li>
+            </ul>
+            <div class="tabs-content">
+              <div class="content active" id="whoami">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="content" id="interests">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="content" id="work">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer>&copy; Tyler Holland 2015</footer>

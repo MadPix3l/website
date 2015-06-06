@@ -42,8 +42,15 @@ header a, header a:hover, header a:active {
   padding-right: 150px;
 }
 
-#aboutme, #projects,  #contactme, #maincontent {
+#projects,  #contactme, #maincontent {
   margin-top: 100px;
+  margin-bottom: 100px;
+  color: black;
+  font-size: 12pt;
+}
+
+#aboutme {
+  margin-top: 40px;
   margin-bottom: 100px;
   color: black;
   font-size: 12pt;
@@ -74,6 +81,10 @@ body {
   color: rgb(119, 222, 255);
 }
 
+.list li .active {
+  color: rgb(119, 222, 255);
+}
+
 #menu {
   height: 50px;
   padding: 5px;
@@ -88,4 +99,19 @@ footer {
   text-align: center;
   font-size: 16pt;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1);
+}
+.profilelist {
+
+  padding-left: 20px;
+}
+
+.profilelist li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.resimage {
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
 }
