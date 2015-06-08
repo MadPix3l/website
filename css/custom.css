@@ -60,6 +60,12 @@ body {
   background-image: url("../images/header.jpg");
   background-size: cover;
 }
+
+.projectheader {
+  background-image: url("../images/projectheader.jpg");
+  background-size: cover;
+}
+
 .list{
   font-size: 18pt;
   text-align: center;
