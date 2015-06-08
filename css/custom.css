@@ -79,6 +79,7 @@ body {
 
 .list li a:hover {
   color: rgb(119, 222, 255);
+  transition: all 0.3s ease;
 }
 
 .list li .active {
@@ -101,17 +102,58 @@ footer {
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1);
 }
 .profilelist {
-
-  padding-left: 20px;
+  margin: 0;
+  padding-left: 70px;
 }
 
 .profilelist li {
   list-style: none;
-  margin-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+
+i {
+  width: 42px;
+  text-align: center;
 }
 
 .resimage {
-  margin-left: 50px;
   width: 300px;
   height: 300px;
+  padding-bottom: 5px;
+}
+.tabs .tab-title a {
+  background-color: white;
+  padding: 8px;
+  transition: all 0.6s ease;
+
+}
+
+.tabs .tab-title a:hover {
+  color: rgb(119, 222, 255);
+  background-color: white;
+  transition: all 0.6s ease;
+
+}
+
+
+.tab-title {
+  width: 33.33%;
+  text-align: center;
+
+}
+.tabs {
+  padding: 2px;
+  background-color: white;
+}
+
+.tabs .tab-title.active a {
+  color: rgb(119, 222, 255);
+  background-color: white;
+  transition: all 0.6s ease;
+}
+.abouttext {
+  padding-left: 12px;
 }
