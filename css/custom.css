@@ -9,7 +9,6 @@ html {
 }
 
 #aboutme h2, #projects h2, #contactme h2 {
-  color: black;
 }
 
 header {
@@ -45,10 +44,16 @@ header a, header a:hover, header a:active {
 #projects,  #contactme, #maincontent {
   margin-top: 100px;
   margin-bottom: 100px;
+
   color: black;
   font-size: 12pt;
 }
 
+#projects {
+  margin: 0 auto;
+  color: black;
+  font-size: 12pt;
+}
 #aboutme {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -162,4 +167,13 @@ i {
 }
 .abouttext {
   padding-left: 12px;
+}
+
+.projectblock {
+
+  margin: 30px auto;
+  width: 700px;
+  height: 700px;
+  background-color: grey;
+
 }
