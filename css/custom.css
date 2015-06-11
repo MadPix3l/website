@@ -9,6 +9,7 @@ html {
 }
 
 #aboutme h2, #projects h2, #contactme h2 {
+  text-align: center;
 }
 
 header {
@@ -31,8 +32,14 @@ header .bigtext {
 
 }
 
-header a, header a:hover, header a:active {
+header a, header a:active {
   color: white;
+}
+
+header a:hover {
+  transition: all 0.3s ease;
+  color: white;
+  text-shadow: 0px 1px 5px rgb(255, 255, 255,);
 }
 #content {
   height: auto;
@@ -44,7 +51,6 @@ header a, header a:hover, header a:active {
 #projects,  #contactme, #maincontent {
   margin-top: 100px;
   margin-bottom: 100px;
-
   color: black;
   font-size: 12pt;
 }
@@ -62,7 +68,7 @@ header a, header a:hover, header a:active {
 }
 
 body {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/webdev.png");
   background-size: cover;
 }
 
@@ -170,10 +176,27 @@ i {
 }
 
 .projectblock {
-
   margin: 30px auto;
-  width: 700px;
-  height: 700px;
-  background-color: grey;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.35);
+}
+
+.projectblock img {
+  width: 1000px;
+  height: 600px;
+}
+
+.projecttext {
+  margin-top: 550px;
+  font-size: 20pt;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 5px;
+
 
 }
