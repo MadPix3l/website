@@ -1,11 +1,13 @@
-# Personal Site
+# Personal Web Site Repository
 
-Creating a personal site experimenting with:
+This is the the code for my website hosted on *[tylerholland.geek.nz](http://tylerholland.geek.nz)*
 
--> Foundation
+I'm using...
+* Nodejs
+* Jade
+* and a bunch of other crap.
+* there isn't actually bunch of other crap...
+* :'(
+* But there will be
 
--> Node.js
-
--> Orchestrate
-
--> And stuff like that
+for lols contact me at tyler@hollands.net.nz
