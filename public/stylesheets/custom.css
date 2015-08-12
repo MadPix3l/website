@@ -210,7 +210,7 @@ i {
   height: 600px;
 }
 
-.projecttext {
+.projecttext, .projecttext:visited{
   margin-top: 550px;
   font-size: 20pt;
   background: rgba(255, 255, 255, 0.7);
@@ -220,8 +220,13 @@ i {
   height: 50px;
   padding-left: 20px;
   padding-top: 5px;
+  color: #000000;
 }
 
+.projecttext:hover  {
+  color: #000000;
+  background-color: rgba(200, 200, 200, 0.7);
+}
 a {
   outline: none;
 }
