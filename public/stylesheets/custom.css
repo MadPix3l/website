@@ -94,16 +94,19 @@ body {
 .list li a {
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 6px;
   color: black;
 }
 
 .list li a:hover {
   color: rgb(119, 222, 255);
-  transition: all 0.3s ease;
+  transition: color 0.3s ease;
+  border-bottom: 3px solid rgb(119, 222, 255);
 }
 
 .list li .active {
   color: rgb(119, 222, 255);
+  border-bottom: 3px solid rgb(119, 222, 255);
 }
 
 #menu {
@@ -114,12 +117,18 @@ body {
 }
 footer {
   padding-top: 10px;
-  height: 60px;
+  height: 70px;
   background-color: rgb(30, 30, 30);
   color: white;
   text-align: center;
   font-size: 16pt;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1);
+}
+
+footer p{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 .profilelist {
   margin: 0;
@@ -130,10 +139,7 @@ footer {
   list-style: none;
   padding-top: 5px;
   padding-bottom: 5px;
-
 }
-
-
 i {
   width: 42px;
   text-align: center;
@@ -154,9 +160,10 @@ i {
 .tabs .tab-title a:hover {
   color: rgb(119, 222, 255);
   background-color: white;
-  transition: all 0.6s ease;
-
+  transition: color 0.3s ease;
+  border-bottom: 3px solid rgb(119, 222, 255);
 }
+
 
 .contact {
   width: 100%;
@@ -178,14 +185,14 @@ i {
 
 }
 .tabs {
-  padding: 2px;
+  padding: 0;
   background-color: white;
 }
 
 .tabs .tab-title.active a {
   color: rgb(119, 222, 255);
   background-color: white;
-  transition: all 0.6s ease;
+  border-bottom: 3px solid rgb(119, 222, 255);
 }
 .abouttext {
   padding-left: 12px;
@@ -218,3 +225,4 @@ i {
 a {
   outline: none;
 }
+/*lol*/
