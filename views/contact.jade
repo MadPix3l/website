@@ -1,0 +1,51 @@
+extends layout
+
+block title
+  title Contact Me
+block content
+  body
+    header
+      a(href="/")
+        span.bigtext Tyler
+        span.text Holland
+    div#container
+      div#menu
+        ul.list
+          li
+            a(href="about") About Me
+          li
+            a(href="projects") Projects
+          li
+            a(href="contact") Contact Me
+      div#content
+        div#contactme
+          h2 Contact Me
+          p If you would like to contact me through my site because you're lazy you can do so here otherwise you can just email me using my email address
+          form
+            div.row
+              div.large-6.columns
+                label First Name
+                  input(type="text", placeholder="First Name")
+              div.large-6.columns
+                label Last Name
+                  input(type="text", placeholder="Last Name")
+            div.row
+              div.large-12.columns
+                label Email Address
+                  input(type="text", placeholder="you@youremailaddress.com")
+            div.row
+              div.large-12.columns
+                label Subject
+                  input(type="text", placeholder="Subject")
+            div.row
+              div.large-12.columns
+                label Message
+                  textarea(placeholder="Write your message here")
+            div.row
+              div.small-2.small-centered.columns
+                button.contact Submit
+                  
+      block footer
+        footer Copyright &copy; 2015 Tyler Holland
+            
+  
