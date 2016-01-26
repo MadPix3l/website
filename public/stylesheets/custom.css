@@ -80,8 +80,8 @@ header a:hover {
 
 body {
   /*background-image: url("../images/header.jpg");*/
+  background-image: url("../images/projectheader.jpg");
   background-size: cover;
-  background-color: rgb(30, 100, 155);
 }
 
 .projectheader {
@@ -110,12 +110,12 @@ body {
 .list li a:hover {
   color: rgb(119, 222, 255);
   transition: color 0.3s ease;
-  border-bottom: 3px solid rgb(119, 222, 255);
+  /*border-bottom: 3px solid rgb(119, 222, 255);*/
 }
 
 .list li .active {
   color: rgb(119, 222, 255);
-  border-bottom: 3px solid rgb(119, 222, 255);
+  /*border-bottom: 3px solid rgb(119, 222, 255);*/
 }
 
 #menu {
@@ -133,6 +133,7 @@ footer {
   text-align: center;
   font-size: 16pt;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 1);
+  overflow: hidden;
 }
 
 footer p{

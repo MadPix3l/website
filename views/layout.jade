@@ -1,6 +1,6 @@
 //- ******************************************
 //- **  Tyler Holland  -  Personal Website  **
-//- **  layout.jade    -  August 2015       **
+//- **  layout.jade    -  Jan 2016          **
 //- ******************************************
 
 doctype html
@@ -10,23 +10,23 @@ html
     meta(name="description", content="")
     meta(name="keywords" content="")
     meta(name-"author" content="")
-    
+
     link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
     link(href='http://fonts.googleapis.com/css?family=Droid+Sans|Lato:100,300,400,700,900|Open+Sans:400,300|Roboto', rel='stylesheet', type='text/css')
-    link(rel="stylesheet", href="/stylesheets/foundation.css") 
+    link(rel="stylesheet", href="/stylesheets/foundation.css")
     link(rel="stylesheet", href="/stylesheets/custom.css")
-    
-    
+
+
     script(type="text/javascript", src="/javascripts/vendor/modernizr.js")
     script(type="text/javascript", src="http://code.jquery.com/jquery.min.js")
     script(type="text/javascript", src="/javascripts/foundation.min.js")
-    
+
     block title
       title #{title}
-  block content  
+  block content
     body
     block footer
-      footer Copyright &copy; 2015 Tyler Holland
-        p Running on node.js with Jade 
-      
+      footer Copyright &copy; 2016 Tyler Holland
+        p Running on node.js with Jade
+
 script $(document).foundation();
