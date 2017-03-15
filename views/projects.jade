@@ -1,7 +1,10 @@
+//- ******************************************
+//- **  Tyler Holland  -  Personal Website  **
+//- **  projects.jade  -  Jan 2016          **
+//- ******************************************
+
 extends layout
 
-block title
-  title Projects
 block content
   body.projectheader
     header
@@ -14,21 +17,22 @@ block content
           li
             a(href="about") About Me
           li
-            a(href="projects") Projects
+            a.active(href="projects") Projects
           li
             a(href="contact") Contact Me
       div#content
         div#projects
           h2 Projects
           div.projectblock
-            div.projecttext Web Development Projects
+            a.projecttext(href="https://github.com/MadPix3l") Web Development Projects
             img(src="/images/webdev.png")
           div.projectblock
-            div.projecttext Game Development Projects
+            a.projecttext(href="https://github.com/MadPix3l") Game Development Projects
             img(src="/images/webdev.png")
           div.projectblock
-            div.projecttext Music Projects
+            a.projecttext(href="https://soundcloud.com/tyler-holland-2") Music Projects
             img(src="/images/gameboy.png")
 
       block footer
         footer Copyright &copy; 2016 Tyler Holland
+          p Running node.js with Jade

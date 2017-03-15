@@ -1,7 +1,10 @@
+//- ******************************************
+//- **  Tyler Holland  -  Personal Website  **
+//- **  about.jade     -  Jan 2016          **
+//- ******************************************
+
 extends layout
 
-block title
-  title About Me
 block content
   body
     header
@@ -22,7 +25,7 @@ block content
           div.row
             div.large-6.columns
               ul.profilelist
-                img.resimage(src="/images/profile.png")
+                img.resimage(src="/images/swifttaytays.jpg")
                 li
                   i.fa.fa-envelope.fa-2x
                   a.abouttext(href="mailto:me@tylerholland.geek.nz") me@tylerholland.geek.nz
@@ -45,11 +48,13 @@ block content
                   a(href="#work") Work
               div.tabs-content
                 div.content.active#whoami
-                  p I am currently a first year University of Canterbury student studing Computer Science. I usually play a lot of video games. As of recently I have been programming a lot more than gaming. Not just because I have to, but because it's more enjoyable.
+                  p I am currently a student at the University of Canterbury studying Computer Science. I am interested in many areas or computers science like Web development, game development, software engineering, networking etc.
                 div.content#interests
-                  p I enjoy programming a whole bunch from stuff like web developement to game development. I mess around in linux a whole lot as well, it's fun. I used to play a lot of games but I've done my best to stay away from them while studying and so far its worked out well.
+                  p I like messing around with all kinds of things. I enjoy breaking linux (fixing it... meh... not so much). I also enjoy messing with arduino's and things of that nature. I also have a soundcloud where I sometimes make music.
                 div.content#work
-                  p At the moment I have work in a typical retail setting just stacking and packing stuff. I like working on projects and it definitely beats packing stuff, I work on my own projects in my 'spare' time like music, game dev and web dev. You can check that stuff out on the projects page if you want.
+                  p You can check out all of my work/projects on github and soundcloud and stuff like that.
 
       block footer
         footer Copyright &copy; 2016 Tyler Holland
+          p Running on node.js with Jade
+

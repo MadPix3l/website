@@ -1,3 +1,8 @@
+//- ******************************************
+//- **  Tyler Holland  -  Personal Website  **
+//- **  layout.jade    -  Jan 2016          **
+//- ******************************************
+
 doctype html
 html
   head
@@ -17,9 +22,10 @@ html
     script(type="text/javascript", src="/javascripts/foundation.min.js")
 
     block title
-      title Website
+      title #{title}
   block content
     body
     block footer
       footer Copyright &copy; 2016 Tyler Holland
+        p Running on node.js with Jade
 script $(document).foundation();
